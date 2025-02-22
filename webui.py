@@ -703,12 +703,12 @@ def create_ui(config, theme_name="Ocean"):
     """
 
     with gr.Blocks(
-            title="Browser Use WebUI", theme=theme_map[theme_name], css=css
+            title="ZYNERIA", theme=theme_map[theme_name], css=css
     ) as demo:
         with gr.Row():
             gr.Markdown(
                 """
-                # 🌐 Browser Use WebUI
+                # 🌐 ZYNERIA
                 ### Control your browser with AI assistance
                 """,
                 elem_classes=["header-text"],
